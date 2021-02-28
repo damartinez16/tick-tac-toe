@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    height: 90vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+    background-color:white;
+  }
+  
+  header {
+    font-size: 7vmin;
+    letter-spacing: 1vmin;
+    color: rgb(226, 176, 156);
+
+  }
+  
+  button {
+    margin-top: 7vmin;
+    background-color: white;
+    border-style: none;
+    color: rgb(226, 176, 156);
+    font-family: 'Baloo 2', cursive;
+    font-size: 2vmin;
+    padding: 1vmin;
+  }
+
+  #msg {
+    color: lightgrey;
+    letter-spacing: .3em;
+  }
+  
+  .grid {
+     display: inline-grid;
+     grid-template-columns: auto auto auto;
+     grid-gap: 1vmin;
+     background-color: rgb(179, 218, 194);
+     margin-top: 2vmin;
+   }
+
+   .griditem {
+     width: 20vmin;
+     height: 20vmin;
+      border: double white 10vmin;
+   }
+
+ 
